@@ -86,7 +86,6 @@ header nav
 }
 header nav ul li
 {
-    float: left;
     display: inline-block;
 }
 header nav ul li a
@@ -95,12 +94,19 @@ header nav ul li a
    font-weight: bold;
    margin: 20px; 
 }
+
+.navhover:hover
+{
+    color: #02b8bb;
+    border: red 1px;
+}
 /* HEADER FIN*/
 /* MAIN IMAGE */
 #main-image
 {
     height: 580px;
-    background-image: url('https://image.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_39422-971.jpg')no-repeat ;
+    background: #02b8bb
+    ;
 }
 #main-image h2
 {
