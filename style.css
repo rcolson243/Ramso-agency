@@ -95,10 +95,11 @@ header nav ul li a
    margin: 20px; 
 }
 
-.navhover:hover
+.navhover :hover
 {
+    height: 30px;
+    width: auto;
     color: #02b8bb;
-    border: red 1px;
 }
 /* HEADER FIN*/
 /* MAIN IMAGE */
@@ -106,6 +107,7 @@ header nav ul li a
 {
     height: 580px;
     background: url(images/main.jpg);
+    background-position: center;
 }
 #main-image h2
 {
