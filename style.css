@@ -105,8 +105,7 @@ header nav ul li a
 #main-image
 {
     height: 580px;
-    background: #02b8bb
-    ;
+    background: url(images/main.jpg);
 }
 #main-image h2
 {
