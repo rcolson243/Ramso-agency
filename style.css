@@ -25,9 +25,7 @@ h3
     font-size: 30px;
     color: #444;
 }
-    /*j'ai eu un soucis ici avec font-size de 
-    la ligne qui precede 
-    au lieu de 55PX j'avais mis 555px*/
+   
 h4
 {
    font-size: 24px;
@@ -102,6 +100,7 @@ header nav ul li a
     color: #02b8bb;
 }
 /* HEADER FIN*/
+
 /* MAIN IMAGE */
 #main-image
 {
@@ -147,7 +146,6 @@ header nav ul li a
     text-align: center;
     margin-right: 10px;  
 }
-/*j'ai eu un petit probleme ici*/
 #steps h4
 {
     text-transform: uppercase;
