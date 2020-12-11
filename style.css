@@ -8,6 +8,7 @@ body
 {
     font-family: Arial,sans-serif;
     font-size: 15px;
+    background-color: #ffffff;
 }
 h1
 {
@@ -35,7 +36,6 @@ p
 {
     line-height: 20px;
     color: #777777;
-
 }    
 ul
 {
@@ -69,7 +69,8 @@ a
 /* HEADER */
 header
 {
-   height: 120px;
+    background-color: #fff; 
+   height: 100px;
 }
 header h1
 { 
@@ -95,6 +96,7 @@ header nav ul li a
 
 .navhover :hover
 {
+    font-size: 20px;
     height: 30px;
     width: auto;
     color: #02b8bb;
@@ -107,6 +109,8 @@ header nav ul li a
     height: 580px;
     background: url(images/main.jpg);
     background-position: center;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 90%);
+
 }
 #main-image h2
 {
@@ -176,6 +180,8 @@ header nav ul li a
 {
    background-color: #efefef;
    padding: 60px 0 ;
+   clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
+
 }
 #possibilities article
 {
@@ -278,7 +284,7 @@ input[type="text"]
 
 footer
 {
-    height: 260px;
+    height: 200px;
     background-color: #444;
 }
 footer h1
